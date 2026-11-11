@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="clayHGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C2593F"/>
+      <stop offset="50%" stop-color="#B84A39"/>
+      <stop offset="100%" stop-color="#8C2C1D"/>
+    </linearGradient>
+    <linearGradient id="ochreHGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BA7325"/>
+      <stop offset="100%" stop-color="#E5A84B"/>
+    </linearGradient>
+    <filter id="logoDropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1C1917" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- ICON BADGE (LEFT) -->
+  <g transform="translate(10, 10)">
+    <!-- Base Disc -->
+    <rect x="0" y="0" width="100" height="100" rx="26" fill="#FAF8F5" stroke="#EAE1D3" stroke-width="2"/>
+    
+    <!-- Tilted Wheel Axis (35 deg) -->
+    <g transform="rotate(-35 50 50)">
+      <ellipse cx="50" cy="80" rx="32" ry="7" fill="none" stroke="url(#ochreHGrad)" stroke-width="2.5" stroke-dasharray="4 3"/>
+    </g>
+
+    <!-- Kendi Maling Silhouette -->
+    <g filter="url(#logoDropShadow)">
+      <!-- Neck & Rim -->
+      <path d="M 46 28 C 46 26, 48 25, 50 25 C 52 25, 54 26, 54 28 L 54 33 L 46 33 Z" fill="#BA7325"/>
+      <ellipse cx="50" cy="25" rx="4.5" ry="1.5" fill="#E5A84B"/>
+
+      <!-- Body -->
+      <path d="M 50 33 
+               C 54 33, 57 38, 57 44 
+               C 57 48, 60 52, 65 57
+               C 72 64, 74 72, 69 79 
+               C 65 85, 58 86, 50 86 
+               C 42 86, 35 85, 31 79 
+               C 26 72, 28 64, 35 57
+               C 40 52, 43 48, 43 44
+               C 43 38, 46 33, 50 33 Z" 
+            fill="url(#clayHGrad)"/>
+            
+      <!-- Spout -->
+      <path d="M 34 62 C 26 59, 20 51, 23 43 C 24 41, 26 42, 26 44 C 24 50, 29 56, 35 58 Z" fill="url(#clayHGrad)"/>
+
+      <!-- Highlight -->
+      <path d="M 58 60 C 63 66, 64 73, 60 78 C 58 80, 56 81, 54 82 C 58 79, 61 74, 60 69 C 60 64, 56 61, 54 58 Z" fill="#FFFFFF" opacity="0.35"/>
+
+      <!-- Sparkle -->
+      <circle cx="73" cy="28" r="3" fill="url(#ochreHGrad)"/>
+      <path d="M 73 22 L 73 34 M 67 28 L 79 28" stroke="#E5A84B" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- TYPOGRAPHY / LOGOTYPE (RIGHT) -->
+  <g transform="translate(130, 0)">
+    <!-- Sub-tagline top -->
+    <text x="0" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.22em" fill="#BA7325">
+      WARISAN TANAH LIAT • KLATEN
+    </text>
+
+    <!-- Main Name -->
+    <text x="0" y="72" font-family="'Playfair Display', Georgia, serif" font-size="40" font-weight="800" letter-spacing="-0.02em" fill="#1C1917">
+      Melikan<tspan fill="#B84A39">Clay</tspan>
+    </text>
+
+    <!-- Subtitle bottom -->
+    <text x="0" y="96" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.08em" fill="#78716C">
+      Sentra Gerabah Desa Melikan (Wedi) &amp; Paseban (Bayat)
+    </text>
+  </g>
+</svg>
+
