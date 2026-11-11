@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: sentra-gerabah-melikan
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: singapore
+    branch: main
+    autoDeploy: true
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_KEY
+        value: base64:OVpgy6usvQcDC8V01l5tTwG8jEVcJ76gLU32vSSmdlA=
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: DB_DATABASE
+        value: /var/www/html/database/database.sqlite
+      - key: APP_NAME
+        value: "Sentra Gerabah Melikan - PkM 2026"

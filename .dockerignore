@@ -1,0 +1,14 @@
+.git
+.github
+node_modules
+produk
+tests
+.phpunit.cache
+npm-debug.log
+yarn-error.log
+storage/logs/*.log
+.env
+.env.backup
+.env.production
+Homestead.json
+Homestead.yaml
