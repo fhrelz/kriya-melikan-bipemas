@@ -28,7 +28,7 @@
 | :--- | :--- |
 | **Skema Hibah** | Program Kemitraan Masyarakat (PkM) 2026 — Hibah BIPEMAS |
 | **Institusi Pengusul** | Universitas Bina Sarana Informatika (UBSI) |
-| **Pengembang Sistem** | Farel (*Pengembang Utama / Mahasiswa Tim PkM*) |
+| **Pengembang Sistem** | Muhammad Fahrel Yuliyanto, NIM: 19240513 (*Pengembang Utama / Mahasiswa Tim PkM*) |
 | **Dosen Pembimbing** | Tim Dosen PkM UBSI 2026 |
 | **Wilayah Mitra Sasaran** | Dusun Sayangan, Dusun Pagerjurang, dan Dusun Paseban (Desa Melikan & Paseban, Kec. Wedi, Kab. Klaten, Jawa Tengah) |
 | **Penerima Manfaat** | 258 Kepala Keluarga (KK) Pengrajin Kriya Gerabah Tradisional |
@@ -192,7 +192,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
 > Selamat pagi/siang, salam sejahtera untuk kita semua,  
 > Yang kami hormati Bapak Kepala Desa Melikan dan Desa Paseban, para sesepuh sentra, Bapak/Ibu Ketua Paguyuban Kriya, serta segenap bapak-ibu maestro pengrajin gerabah yang kami banggakan.*
 >
-> *Pertama-tama, izinkan kami dari Tim Pengabdian Kemitraan Masyarakat (PkM) Universitas Bina Sarana Informatika menyampaikan salam hangat dari mahasiswa kami, **Farel**, pengembang utama platform ini yang hari ini berhalangan hadir secara langsung karena alasan yang tidak dapat ditinggalkan. Namun, seluruh keringat, karya, dan dedikasinya telah tertuang utuh di dalam platform digital yang ada di hadapan kita semua hari ini."*
+> *Pertama-tama, izinkan kami dari Tim Pengabdian Kemitraan Masyarakat (PkM) Universitas Bina Sarana Informatika menyampaikan salam hangat dari mahasiswa kami, **Muhammad Fahrel Yuliyanto (NIM: 19240513)**, pengembang utama platform ini yang hari ini berhalangan hadir secara langsung karena alasan yang tidak dapat ditinggalkan. Namun, seluruh keringat, karya, dan dedikasinya telah tertuang utuh di dalam platform digital yang ada di hadapan kita semua hari ini."*
 
 ---
 
@@ -200,7 +200,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
 > *"Bapak-Ibu sekalian, gerabah Melikan ini bukan sekadar tanah liat biasa. Dunia mengakui teknik **Putaran Miring 35°** peninggalan Ki Depok adalah satu-satunya di dunia dan merupakan Warisan Budaya Takbenda Indonesia.  
 > Namun, selama ini tantangan bapak-ibu pengrajin adalah pemasaran: seringkali harga ditekan oleh makelar, atau pembeli dari luar kota bingung cara memesan dan khawatir gerabah pecah di jalan.*
 >
-> *Melalui dukungan **Hibah BIPEMAS 2026 Kemdikbudristek**, kami dari UBSI bersama Farel mempersembahkan:**Platform Digital Sentra Gerabah Melikan & Paseban** yang beralamat di:  
+> *Melalui dukungan **Hibah BIPEMAS 2026 Kemdikbudristek**, kami dari UBSI bersama saudara Fahrel mempersembahkan: **Platform Digital Sentra Gerabah Melikan & Paseban** yang beralamat di:  
 > **`https://fhrelz.github.io/kriya-melikan-bipemas/`**.*
 >
 > *Website ini aktif 24 jam nonstop di internet, bisa dibuka dari HP siapa saja di seluruh Indonesia dan dunia, tanpa biaya sepeser pun."*

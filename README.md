@@ -67,4 +67,5 @@ php artisan serve
 - **Program:** Program Kemitraan Masyarakat (PkM) 2026
 - **Skema Hibah:** BIPEMAS 2026
 - **Institusi:** Universitas Bina Sarana Informatika (UBSI)
+- **Pengembang Sistem / Mahasiswa:** Muhammad Fahrel Yuliyanto (NIM: 19240513)
 - **Lokasi Mitra:** Sentra Gerabah Dusun Sayangan, Dusun Pagerjurang, & Dusun Paseban, Desa Melikan & Paseban, Kec. Wedi, Kab. Klaten, Jawa Tengah.
