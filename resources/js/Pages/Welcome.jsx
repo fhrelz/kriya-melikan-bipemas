@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+﻿import React, { useState, useMemo } from 'react';
 import { Head } from '@inertiajs/react';
 
 // ==========================================
@@ -17,8 +17,8 @@ const PRODUCTS = [
     badge: 'Ikon WBTb',
     badgeColor: 'bg-amber-100 text-amber-900 border border-amber-200',
     artisan: 'Pak Suhirno (Sanggar Sekar Wangi)',
-    image: '/images/product_kendi_maling.jpg',
-    realPhoto: '/images/dokumentasi/img_2243.jpg',
+    image: 'images/product_kendi_maling.jpg',
+    realPhoto: 'images/dokumentasi/img_2243.jpg',
     specs: 'Tinggi 24 cm, 1.2 Liter, Asap Daun Munggur, 100% Bebas Timbal',
     desc: 'Diisi air melalui rongga dasar terbalik dan terkunci sempurna secara hidrolik tanpa bocor sedikitpun saat ditegakkan.',
   },
@@ -34,8 +34,8 @@ const PRODUCTS = [
     badge: 'Best Seller',
     badgeColor: 'bg-emerald-100 text-emerald-900 border border-emerald-200',
     artisan: 'Ibu Suparmi (Kriya Sayangan)',
-    image: '/images/product_cobek_layah.jpg',
-    realPhoto: '/images/dokumentasi/img_2209.jpg',
+    image: 'images/product_cobek_layah.jpg',
+    realPhoto: 'images/dokumentasi/img_2209.jpg',
     specs: 'Diameter 22 cm, Tebal 2.5 cm, Presisi Putaran Miring 35°',
     desc: 'Pori lempung alami mikro padat, tidak berpasir saat mengulek bumbu sambal dan menjaga rasa tetap segar.',
   },
@@ -51,8 +51,8 @@ const PRODUCTS = [
     badge: 'Favorit Kafe',
     badgeColor: 'bg-stone-100 text-stone-800 border border-stone-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_poci_set.jpg',
-    realPhoto: '/images/dokumentasi/img_2214.jpg',
+    image: 'images/product_poci_set.jpg',
+    realPhoto: 'images/dokumentasi/img_2214.jpg',
     specs: 'Poci 750ml, 2 Cangkir Sloki Gerabah, Nampan Terakota',
     desc: 'Menghadirkan karakter teh Wasgitel dengan aroma tanah liat sangrai tradisional yang khas dan menenangkan.',
   },
@@ -68,8 +68,8 @@ const PRODUCTS = [
     badge: 'Tahan Api Kompor',
     badgeColor: 'bg-orange-100 text-orange-900 border border-orange-200',
     artisan: 'Bapak Muh Nawawi (Barokah Keramik)',
-    image: '/images/product_kuali_soto.jpg',
-    realPhoto: '/images/dokumentasi/img_2207.jpg',
+    image: 'images/product_kuali_soto.jpg',
+    realPhoto: 'images/dokumentasi/img_2207.jpg',
     specs: 'Kapasitas 3 Liter, Tebal Dinding 8mm, Termasuk Tutup',
     desc: 'Tahan api kompor langsung, menghantarkan panas stabil untuk memasak rawon, soto, dan gudeg lebih empuk.',
   },
@@ -85,8 +85,8 @@ const PRODUCTS = [
     badge: 'Desain Modern',
     badgeColor: 'bg-stone-100 text-stone-800 border border-stone-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_vas_japandi.jpg',
-    realPhoto: '/images/dokumentasi/img_2224.jpg',
+    image: 'images/product_vas_japandi.jpg',
+    realPhoto: 'images/dokumentasi/img_2224.jpg',
     specs: 'Tinggi 28 cm, Diameter Mulut 9 cm, Tekstur Matte Alami',
     desc: 'Perpaduan bentuk Scandinavian-Japandi dengan lempung lokal Klaten untuk aksen interior ruang tamu dan kafe.',
   },
@@ -102,8 +102,8 @@ const PRODUCTS = [
     badge: 'Karya Kriya',
     badgeColor: 'bg-amber-100 text-amber-900 border border-amber-200',
     artisan: 'Bapak Tri Wiyono (Elvi Keramik)',
-    image: '/images/product_celengan_semar.jpg',
-    realPhoto: '/images/dokumentasi/img_2253.jpg',
+    image: 'images/product_celengan_semar.jpg',
+    realPhoto: 'images/dokumentasi/img_2253.jpg',
     specs: 'Tinggi 20 cm, Lempung Padat, Pewarnaan Ramah Lingkungan',
     desc: 'Celengan karakter Semar sebagai simbol hidup bersahaja dan media edukasi gemar menabung untuk anak-anak.',
   },
@@ -119,8 +119,8 @@ const PRODUCTS = [
     badge: 'Sangrai Alami',
     badgeColor: 'bg-stone-100 text-stone-800 border border-stone-200',
     artisan: 'Ibu Suparmi (Kriya Sayangan)',
-    image: '/images/product_wajan_sangrai.jpg',
-    realPhoto: '/images/dokumentasi/img_2254.jpg',
+    image: 'images/product_wajan_sangrai.jpg',
+    realPhoto: 'images/dokumentasi/img_2254.jpg',
     specs: 'Diameter 26 cm, Kedalaman 7 cm, Gagang Kuping Ganda',
     desc: 'Wajan lempung tanpa minyak untuk menyangrai biji kopi, kacang tanah, dan rempah bumbu agar aroma harum maksimal.',
   },
@@ -136,8 +136,8 @@ const PRODUCTS = [
     badge: 'Otentik Tradisi',
     badgeColor: 'bg-amber-100 text-amber-900 border border-amber-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_kendil_ariari.jpg',
-    realPhoto: '/images/dokumentasi/img_2241.jpg',
+    image: 'images/product_kendil_ariari.jpg',
+    realPhoto: 'images/dokumentasi/img_2241.jpg',
     specs: 'Kapasitas 1.5 Liter, Dilengkapi Tutup Kubah, Tahan Suhu Hangat',
     desc: 'Bejana perebus jamu herbal alami dan upacara tradisi kelahiran Jawa dengan kemampuan menjaga suhu hangat stabil.',
   },
@@ -153,8 +153,8 @@ const PRODUCTS = [
     badge: 'Hemat Energi',
     badgeColor: 'bg-orange-100 text-orange-900 border border-orange-200',
     artisan: 'Ibu Suparmi (Kriya Sayangan)',
-    image: '/images/product_anglo_arang.jpg',
-    realPhoto: '/images/dokumentasi/img_2242.jpg',
+    image: 'images/product_anglo_arang.jpg',
+    realPhoto: 'images/dokumentasi/img_2242.jpg',
     specs: 'Diameter 25 cm, Lubang Angin Sirkulasi, Dinding Isolator Panas',
     desc: 'Kompor arang tradisional untuk bakaran sate, memasak nasi liwet, dan wedang ronde dengan bara api stabil tahan lama.',
   },
@@ -170,8 +170,8 @@ const PRODUCTS = [
     badge: 'Favorit Resto',
     badgeColor: 'bg-emerald-100 text-emerald-900 border border-emerald-200',
     artisan: 'Pak Suhirno (Sanggar Sekar Wangi)',
-    image: '/images/product_piring_makan.jpg',
-    realPhoto: '/images/dokumentasi/img_2209.jpg',
+    image: 'images/product_piring_makan.jpg',
+    realPhoto: 'images/dokumentasi/img_2209.jpg',
     specs: 'Diameter 24 cm, Tebal 6mm, Food-Grade Finishing Halus',
     desc: 'Piring saji ceper berkarakter earthy-rustic untuk hidangan kuliner Nusantara, kafe modern, dan sajian hotel berbintang.',
   },
@@ -187,8 +187,8 @@ const PRODUCTS = [
     badge: 'Specialty Coffee',
     badgeColor: 'bg-stone-100 text-stone-800 border border-stone-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_cangkir_kopi.jpg',
-    realPhoto: '/images/dokumentasi/img_2214.jpg',
+    image: 'images/product_cangkir_kopi.jpg',
+    realPhoto: 'images/dokumentasi/img_2214.jpg',
     specs: 'Volume 180 ml, Termasuk Lepek Piringan Kecil, Handle Ergonomis',
     desc: 'Cangkir kopi tembikar berpori padat yang menjaga kehangatan kopi tubruk, latte, dan espresso lebih lama.',
   },
@@ -204,8 +204,8 @@ const PRODUCTS = [
     badge: 'Sajian Kuah',
     badgeColor: 'bg-orange-100 text-orange-900 border border-orange-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_mangkok_sup.jpg',
-    realPhoto: '/images/dokumentasi/img_2215.jpg',
+    image: 'images/product_mangkok_sup.jpg',
+    realPhoto: 'images/dokumentasi/img_2215.jpg',
     specs: 'Diameter 16 cm, Volume 600 ml, Tahan Kuah Panas Mendidih',
     desc: 'Mangkok saji kuliner kuah rawon, bakso, dan soto yang memberi kehangatan alami dan tampilan estetik tradisional.',
   },
@@ -221,8 +221,8 @@ const PRODUCTS = [
     badge: 'Penyejuk Alami',
     badgeColor: 'bg-sky-100 text-sky-900 border border-sky-200',
     artisan: 'Pak Suhirno (Sanggar Sekar Wangi)',
-    image: '/images/product_gentong_air.jpg',
-    realPhoto: '/images/dokumentasi/img_2233.jpg',
+    image: 'images/product_gentong_air.jpg',
+    realPhoto: 'images/dokumentasi/img_2233.jpg',
     specs: 'Kapasitas 15 Liter, Termasuk Tutup & Gayung Kayu, Pori Transpirasi',
     desc: 'Wadah air minum khas pedesaan yang mendinginkan air secara alami melalui proses transpirasi mikro pori lempung tanpa listrik.',
   },
@@ -238,8 +238,8 @@ const PRODUCTS = [
     badge: 'Tanaman Sehat',
     badgeColor: 'bg-emerald-100 text-emerald-900 border border-emerald-200',
     artisan: 'Pak Suhirno (Sanggar Sekar Wangi)',
-    image: '/images/product_pot_tanaman.jpg',
-    realPhoto: '/images/dokumentasi/img_2232.jpg',
+    image: 'images/product_pot_tanaman.jpg',
+    realPhoto: 'images/dokumentasi/img_2232.jpg',
     specs: 'Diameter 14 cm, Dilengkapi Lubang Drainase Dasar, Bahan Lempung Bernapas',
     desc: 'Pot terakota alami dengan sirkulasi udara akar prima, mencegah pembusukan akar tanaman sukulen, kaktus, dan bonsai.',
   },
@@ -255,8 +255,8 @@ const PRODUCTS = [
     badge: 'Karya Seni Budaya',
     badgeColor: 'bg-amber-100 text-amber-900 border border-amber-200',
     artisan: 'Bapak Tri Wiyono (Elvi Keramik)',
-    image: '/images/product_patung_macan.jpg',
-    realPhoto: '/images/dokumentasi/img_2246.jpg',
+    image: 'images/product_patung_macan.jpg',
+    realPhoto: 'images/dokumentasi/img_2246.jpg',
     specs: 'Tinggi 35 cm, Panjang 40 cm, Cat Karakter Tahan Air, Tanah Lempung Padat',
     desc: 'Karya patung seni kriya tanah liat ekspresif harimau Jawa loreng kuning-hitam Melikan. Biasa dipasang sebagai hiasan teras rumah, gapura, atau dekorasi taman berkarakter.',
   },
@@ -272,8 +272,8 @@ const PRODUCTS = [
     badge: 'Koleksi Legendaris',
     badgeColor: 'bg-red-100 text-red-900 border border-red-200',
     artisan: 'Bapak Tri Wiyono (Elvi Keramik)',
-    image: '/images/product_celengan_ayam.jpg',
-    realPhoto: '/images/dokumentasi/img_2252.jpg',
+    image: 'images/product_celengan_ayam.jpg',
+    realPhoto: 'images/dokumentasi/img_2252.jpg',
     specs: 'Tinggi 22 cm, Panjang 18 cm, Lubang Koin Presisi Atas, Cat Warna Cerah',
     desc: 'Celengan legendaris warisan leluhur nusantara berbentuk ayam jago dengan jengger merah menyala. Melatih gemar menabung sejak dini dengan karya kriya lokal.',
   },
@@ -289,8 +289,8 @@ const PRODUCTS = [
     badge: 'Ukir Tangan Halus',
     badgeColor: 'bg-rose-100 text-rose-900 border border-rose-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_teko_mawar.jpg',
-    realPhoto: '/images/dokumentasi/img_2240.jpg',
+    image: 'images/product_teko_mawar.jpg',
+    realPhoto: 'images/dokumentasi/img_2240.jpg',
     specs: 'Kapasitas 1.100 ml, Moncong Lengkung Presisi, Ukir Motif Mawar Melikan',
     desc: 'Ceret teh klasik dengan moncong jenjang melengkung dan ornamen ukiran bunga mawar. Menjaga seduhan teh tetap hangat dan mengeluarkan aroma tanah liat sangrai wangi.',
   },
@@ -306,8 +306,8 @@ const PRODUCTS = [
     badge: 'Alami Non-Reaktif',
     badgeColor: 'bg-emerald-100 text-emerald-900 border border-emerald-200',
     artisan: 'Bapak Muh Nawawi (Barokah Keramik)',
-    image: '/images/product_panci_jamu.jpg',
-    realPhoto: '/images/dokumentasi/img_2254.jpg',
+    image: 'images/product_panci_jamu.jpg',
+    realPhoto: 'images/dokumentasi/img_2254.jpg',
     specs: 'Diameter 18 cm, Gagang Lurus 14 cm, Termasuk Tutup Pentul Kubah',
     desc: 'Panci lempung bertutup dengan pegangan silinder lurus untuk merebus jamu herbal, wedang uwuh, dan rimpang tanpa bereaksi kimia dengan logam.',
   },
@@ -323,8 +323,8 @@ const PRODUCTS = [
     badge: 'Akar Bernapas',
     badgeColor: 'bg-teal-100 text-teal-900 border border-teal-200',
     artisan: 'Pak Suhirno (Sanggar Sekar Wangi)',
-    image: '/images/product_pot_anggrek.jpg',
-    realPhoto: '/images/dokumentasi/img_2234.jpg',
+    image: 'images/product_pot_anggrek.jpg',
+    realPhoto: 'images/dokumentasi/img_2234.jpg',
     specs: 'Diameter 18 cm, Tinggi 16 cm, 16 Lubang Ventilasi Udara Keliling',
     desc: 'Pot terakota khusus anggrek dan tanaman epifit dengan lubang sirkulasi melingkar. Mencegah pembusukan akar dan menjaga kelembapan mikro ideal.',
   },
@@ -340,8 +340,8 @@ const PRODUCTS = [
     badge: 'Mahakarya Taman',
     badgeColor: 'bg-amber-100 text-amber-900 border border-amber-200',
     artisan: 'Bapak Tri Wiyono (Elvi Keramik)',
-    image: '/images/product_air_mancur.jpg',
-    realPhoto: '/images/dokumentasi/img_2238.jpg',
+    image: 'images/product_air_mancur.jpg',
+    realPhoto: 'images/dokumentasi/img_2238.jpg',
     specs: 'Tinggi 85 cm, 3 Undak Mangkuk Bergelombang, Termasuk Pompa Submersible Ready',
     desc: 'Ornamen air mancur taman bertingkat tiga dengan tepian kelopak teratai bergelombang. Menghasilkan gemericik air yang menyejukkan halaman rumah dan kafe.',
   },
@@ -357,8 +357,8 @@ const PRODUCTS = [
     badge: 'Glasir Spesial',
     badgeColor: 'bg-lime-100 text-lime-900 border border-lime-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_poci_labu_hijau.jpg',
-    realPhoto: '/images/dokumentasi/img_2210.jpg',
+    image: 'images/product_poci_labu_hijau.jpg',
+    realPhoto: 'images/dokumentasi/img_2210.jpg',
     specs: 'Kapasitas 800 ml, Glasir Hijau Halus Food-Grade Tahan Panas 1.100°C',
     desc: 'Teko poci teh unik berbentuk labu dengan lapisan glasir hijau alami berkilau. Kombinasi bentuk tradisional dan estetika keramik modern.',
   },
@@ -374,8 +374,8 @@ const PRODUCTS = [
     badge: 'Pilihan Horeka',
     badgeColor: 'bg-stone-100 text-stone-800 border border-stone-200',
     artisan: 'Bapak Muh Nawawi (Barokah Keramik)',
-    image: '/images/product_piring_persegi.jpg',
-    realPhoto: '/images/dokumentasi/img_2261.jpg',
+    image: 'images/product_piring_persegi.jpg',
+    realPhoto: 'images/dokumentasi/img_2261.jpg',
     specs: 'Ukuran 24 x 18 cm, Lempung Bakar Padat Tahan Cuci Restoran',
     desc: 'Piring saji bentuk persegi panjang dengan tepian naik landai bernuansa earthy-modern. Sangat digemari hotel, restoran, dan kafe untuk hidangan etnik berkelas.',
   },
@@ -391,8 +391,8 @@ const PRODUCTS = [
     badge: 'Dapur Otentik',
     badgeColor: 'bg-orange-100 text-orange-900 border border-orange-200',
     artisan: 'Ibu Suparmi (Kriya Sayangan)',
-    image: '/images/product_lumpang_bumbu.jpg',
-    realPhoto: '/images/dokumentasi/img_2260.jpg',
+    image: 'images/product_lumpang_bumbu.jpg',
+    realPhoto: 'images/dokumentasi/img_2260.jpg',
     specs: 'Tinggi 16 cm, Diameter 15 cm, Dinding Tebal 3 cm, Termasuk Alu Kayu',
     desc: 'Lumpang gerabah berdinding kokoh untuk menumbuk bumbu basah, sambal kencur, jamu herbal, dan kacang tanah tanpa merusak aroma alami bahan.',
   },
@@ -408,8 +408,8 @@ const PRODUCTS = [
     badge: 'Tahan Cuaca',
     badgeColor: 'bg-emerald-100 text-emerald-900 border border-emerald-200',
     artisan: 'Bapak Tri Wiyono (Elvi Keramik)',
-    image: '/images/product_stool_taman.jpg',
-    realPhoto: '/images/dokumentasi/img_2239.jpg',
+    image: 'images/product_stool_taman.jpg',
+    realPhoto: 'images/dokumentasi/img_2239.jpg',
     specs: 'Tinggi 45 cm, Diameter Dudukan 32 cm, Kapasitas Beban 130 kg',
     desc: 'Kursi dudukan taman bulat dari lempung bakar tebal dengan ukiran relief daun monstera tropis. Tahan panas matahari dan hujan outdoor.',
   },
@@ -425,8 +425,8 @@ const PRODUCTS = [
     badge: 'Warisan Abad 15',
     badgeColor: 'bg-amber-100 text-amber-900 border border-amber-200',
     artisan: 'Pak Suhirno (Sanggar Sekar Wangi)',
-    image: '/images/product_kendi_gagang.jpg',
-    realPhoto: '/images/dokumentasi/img_2212.jpg',
+    image: 'images/product_kendi_gagang.jpg',
+    realPhoto: 'images/dokumentasi/img_2212.jpg',
     specs: 'Tinggi 28 cm, Kapasitas 1.5 Liter, Tutup Kerucut Mahkota, Moncong Lancip',
     desc: 'Kendi air minum klasik Melikan dengan pegangan lengkung ergonomis dan tutup mahkota lancip. Menyejukkan air minum secara alami bebas zat kimia.',
   },
@@ -442,8 +442,8 @@ const PRODUCTS = [
     badge: 'Favorit Wedangan',
     badgeColor: 'bg-amber-100 text-amber-900 border border-amber-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_cangkir_bertutup.jpg',
-    realPhoto: '/images/dokumentasi/img_2219.jpg',
+    image: 'images/product_cangkir_bertutup.jpg',
+    realPhoto: 'images/dokumentasi/img_2219.jpg',
     specs: 'Kapasitas 350 ml, Dilengkapi Tutup Pentul & Gagang Nyaman',
     desc: 'Mug minum khas angkringan dan kedai kopi Nusantara. Tutup lempung menjaga suhu hangat wedang jahe, kopi tubruk, dan teh nasgitel lebih lama.',
   },
@@ -459,8 +459,8 @@ const PRODUCTS = [
     badge: 'Desain Minimalis',
     badgeColor: 'bg-stone-100 text-stone-800 border border-stone-200',
     artisan: 'Bapak Muh Nawawi (Barokah Keramik)',
-    image: '/images/product_pot_ulir.jpg',
-    realPhoto: '/images/dokumentasi/img_2245.jpg',
+    image: 'images/product_pot_ulir.jpg',
+    realPhoto: 'images/dokumentasi/img_2245.jpg',
     specs: 'Tinggi 30 cm, Diameter 20 cm, Tekstur Ulir Spiral Berundak',
     desc: 'Pot tanaman indoor/outdoor dengan aksen ulir melingkar horizontal modern. Memberikan nuansa estetik Scandinavian-rustic pada tanaman hias.',
   },
@@ -476,8 +476,8 @@ const PRODUCTS = [
     badge: 'Katering & Horeka',
     badgeColor: 'bg-orange-100 text-orange-900 border border-orange-200',
     artisan: 'Bapak Muh Nawawi (Barokah Keramik)',
-    image: '/images/product_chafing_dish.jpg',
-    realPhoto: '/images/dokumentasi/img_2220.jpg',
+    image: 'images/product_chafing_dish.jpg',
+    realPhoto: 'images/dokumentasi/img_2220.jpg',
     specs: 'Diameter 28 cm, Termasuk Tungku Lilin Bintang, Tutup Kubah Pentul',
     desc: 'Wadah saji prasmanan tradisional dengan tungku lilin aromatik berlubang bintang di bagian bawah. Menjaga hidangan gulai, sup, dan sayur tetap panas di meja perjamuan.',
   },
@@ -493,8 +493,8 @@ const PRODUCTS = [
     badge: 'Seduh Teh Unik',
     badgeColor: 'bg-teal-100 text-teal-900 border border-teal-200',
     artisan: 'Ibu Yani (Sanggar Tanah Asri)',
-    image: '/images/product_teko_kyusu.jpg',
-    realPhoto: '/images/dokumentasi/img_2261.jpg',
+    image: 'images/product_teko_kyusu.jpg',
+    realPhoto: 'images/dokumentasi/img_2261.jpg',
     specs: 'Kapasitas 650 ml, Gagang Silinder Samping Ergonomis, Filter Saringan Lempung',
     desc: 'Teko seduh teh dengan pegangan silinder samping ala Kyusu tradisional Jawa. Menuangkan air teh dengan kontrol presisi tanpa pergelangan tangan lelah.',
   },
@@ -513,7 +513,7 @@ const ARTISANS = [
     dusunId: 'Dusun Sayangan',
     address: 'Dukuh Sayangan RT 01 / RW 02, Desa Melikan, Kec. Wedi, Klaten (Dekat Tugu Gerabah)',
     phone: '6281234567891',
-    avatar: '/images/artisan_ibu_suparmi.jpg',
+    avatar: 'images/artisan_ibu_suparmi.jpg',
     experience: 'Generasi ke-3 • Sejak 1994 (30+ Tahun Berkarya)',
     capacity: '1.800 pcs / bulan',
     bio: 'Meneruskan teknik putaran miring 35° dari simbah buyut. Lempung Sayangan difermentasi 7 hari sehingga menghasilkan pori mikro padat yang tidak rontok saat mengulek bumbu pedas.',
@@ -530,7 +530,7 @@ const ARTISANS = [
     dusunId: 'Dusun Pagerjurang',
     address: 'Jl. Raya Melikan - Pagerjurang RT 03 / RW 01, Desa Melikan, Kec. Wedi, Klaten',
     phone: '6281234567892',
-    avatar: '/images/artisan_ibu_yani.jpg',
+    avatar: 'images/artisan_ibu_yani.jpg',
     experience: 'Generasi ke-3 • Sejak 1996 (28 Tahun Berkarya)',
     capacity: '1.200 set / bulan',
     bio: 'Fokus pada tableware alami dan bejana tahan api. Setiap poci dan cangkir dibakar menggunakan kayu mahoni kering menghasilkan aroma earthy yang memperkaya cita rasa teh Wasgitel.',
@@ -547,7 +547,7 @@ const ARTISANS = [
     dusunId: 'Dusun Paseban',
     address: 'Dusun I Paseban, Kec. Bayat, Kab. Klaten 57461 (Dekat Makam Ki Depok)',
     phone: '6281234567890',
-    avatar: '/images/artisan_pak_suhirno.jpg',
+    avatar: 'images/artisan_pak_suhirno.jpg',
     experience: 'Generasi ke-4 • Sejak 1988 (36 Tahun Berkarya)',
     capacity: '800 pcs / bulan',
     bio: 'Menjaga wasiat leluhur Ki Depok abad ke-15. Membina puluhan pemuda desa memproduksi kendi maling hidrolik dan black pottery reduksi asap daun munggur 100% bebas timbal.',
@@ -564,7 +564,7 @@ const ARTISANS = [
     dusunId: 'Dusun Pagerjurang',
     address: 'Dukuh Pagerjurang RT 02 / RW 01, Desa Melikan, Kec. Wedi, Klaten',
     phone: '6281234567802',
-    avatar: '/images/artisan_pak_suhirno.jpg',
+    avatar: 'images/artisan_pak_suhirno.jpg',
     experience: 'Generasi ke-2 • Sejak 1992 (32 Tahun Berkarya)',
     capacity: '2.500 pcs / bulan',
     bio: 'Pusat pasokan massal kuali rawon soto kompor langsung, piring saji saung, dan bejana tahan panas untuk jaringan warung makan di Solo-Yogyakarta.',
@@ -581,7 +581,7 @@ const ARTISANS = [
     dusunId: 'Dusun Sayangan',
     address: 'Dukuh Sayangan RT 01 (Dekat Tugu Gerabah), Desa Melikan, Wedi, Klaten',
     phone: '6281234567803',
-    avatar: '/images/artisan_ibu_suparmi.jpg',
+    avatar: 'images/artisan_ibu_suparmi.jpg',
     experience: 'Generasi ke-2 • Sejak 2004 (20 Tahun Berkarya)',
     capacity: '1.500 pcs / bulan',
     bio: 'Spesialis souvenir kriya karakter budaya Jawa, celengan Semar, dan media motorik tanah liat yang sering menjadi tujuan eduwisata siswa dan studi mahasiswa.',
@@ -599,7 +599,7 @@ const DUSUN_DATA = [
     families: 120,
     output: '45.000 pcs / bulan',
     specialty: 'Cobek layah lempung halus, wajan sangrai, anglo arang, celengan Semar',
-    image: '/images/artisan_ibu_suparmi.jpg',
+    image: 'images/artisan_ibu_suparmi.jpg',
     leader: 'Ibu Suparmi',
     wa: '6281234567891',
     desc: 'Dusun Sayangan adalah pusat produksi cobek layah lempung halus terbesar di Klaten dengan pori mikro alami tidak mengikis pasir saat digunakan mengulek bumbu.',
@@ -611,7 +611,7 @@ const DUSUN_DATA = [
     families: 85,
     output: '32.000 pcs / bulan',
     specialty: 'Kuali masak api langsung, set poci teh, cangkir kopi, gentong penyejuk air',
-    image: '/images/artisan_ibu_yani.jpg',
+    image: 'images/artisan_ibu_yani.jpg',
     leader: 'Ibu Yani',
     wa: '6281234567892',
     desc: 'Sentra bejana berdinding tebal yang tahan panas api langsung kompor modern dan tungku kayu bakar, serta produsen set poci teh sangrai terkemuka.',
@@ -623,7 +623,7 @@ const DUSUN_DATA = [
     families: 45,
     output: '18.000 pcs / bulan',
     specialty: 'Kendi Maling hidrolik, vas Japandi, piring rustic horeka, pot sukulen',
-    image: '/images/artisan_pak_suhirno.jpg',
+    image: 'images/artisan_pak_suhirno.jpg',
     leader: 'Pak Suhirno',
     wa: '6281234567890',
     desc: 'Pusat konservasi seni kriya Ki Depok abad ke-15 dengan teknik hidrolik kendi maling terbalik dan pewarnaan asap daun munggur hitam kilap bebas timbal.',
@@ -1169,7 +1169,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
               className="flex items-center gap-2 sm:gap-2.5 cursor-pointer select-none group shrink-0"
             >
               <img
-                src="/images/logo-melikan.png"
+                src="images/logo-melikan.png"
                 alt="Logo Sentra Melikan Gerabah Klaten"
                 className="h-8 sm:h-9 w-auto object-contain transition-transform group-hover:scale-105"
               />
@@ -1405,7 +1405,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
                   <div className="lg:col-span-5">
                     <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-stone-200 shadow-sm bg-stone-100 h-60 min-[480px]:h-72 sm:h-80 lg:h-96">
                       <img
-                        src="/images/hero_putaran_miring.jpg"
+                        src="images/hero_putaran_miring.jpg"
                         alt="Putaran Miring 35 Derajat"
                         className="w-full h-full object-cover"
                         loading="eager"
@@ -2284,7 +2284,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               <div className="bg-white rounded-xl border border-stone-200 p-4 shadow-xs">
                 <div className="h-44 sm:h-52 rounded-lg overflow-hidden bg-stone-100 mb-3">
-                  <img src="/images/story_putaran_miring.jpg" alt="Putaran Miring" className="w-full h-full object-cover" loading="lazy" />
+                  <img src="images/story_putaran_miring.jpg" alt="Putaran Miring" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <h3 className="text-sm sm:text-base font-bold text-stone-900 mb-1">1. Ergonomi Sudut 35°</h3>
                 <p className="text-xs text-stone-600 leading-relaxed mb-2">
@@ -2297,7 +2297,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
 
               <div className="bg-white rounded-xl border border-stone-200 p-4 shadow-xs">
                 <div className="h-44 sm:h-52 rounded-lg overflow-hidden bg-stone-100 mb-3">
-                  <img src="/images/story_daun_munggur.jpg" alt="Daun Munggur" className="w-full h-full object-cover" loading="lazy" />
+                  <img src="images/story_daun_munggur.jpg" alt="Daun Munggur" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <h3 className="text-sm sm:text-base font-bold text-stone-900 mb-1">2. Kimiawi Reduksi Daun Munggur</h3>
                 <p className="text-xs text-stone-600 leading-relaxed mb-2">
@@ -2310,7 +2310,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
 
               <div className="bg-white rounded-xl border border-stone-200 p-4 shadow-xs">
                 <div className="h-44 sm:h-52 rounded-lg overflow-hidden bg-stone-100 mb-3">
-                  <img src="/images/story_kendi_maling.jpg" alt="Kendi Maling" className="w-full h-full object-cover" loading="lazy" />
+                  <img src="images/story_kendi_maling.jpg" alt="Kendi Maling" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <h3 className="text-sm sm:text-base font-bold text-stone-900 mb-1">3. Hidrolika Kendi Maling</h3>
                 <p className="text-xs text-stone-600 leading-relaxed mb-2">
@@ -2323,7 +2323,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
 
               <div className="bg-white rounded-xl border border-stone-200 p-4 shadow-xs">
                 <div className="h-44 sm:h-52 rounded-lg overflow-hidden bg-stone-100 mb-3">
-                  <img src="/images/story_sunan_pandanaran.jpg" alt="Sunan Pandanaran" className="w-full h-full object-cover" loading="lazy" />
+                  <img src="images/story_sunan_pandanaran.jpg" alt="Sunan Pandanaran" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <h3 className="text-sm sm:text-base font-bold text-stone-900 mb-1">4. Sejarah Sunan Pandanaran</h3>
                 <p className="text-xs text-stone-600 leading-relaxed mb-2">
@@ -2851,7 +2851,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
               </button>
             </div>
             <div className="rounded-lg overflow-hidden aspect-video bg-stone-900 relative flex items-center justify-center">
-              <img src="/images/hero_putaran_miring.jpg" alt="Video Preview" className="w-full h-full object-cover opacity-75" />
+              <img src="images/hero_putaran_miring.jpg" alt="Video Preview" className="w-full h-full object-cover opacity-75" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4 bg-black/40">
                 <span className="w-12 h-12 rounded-full bg-[#963824] text-white flex items-center justify-center text-xl pl-0.5 shadow-md animate-pulse cursor-pointer">
                   ▶
@@ -2887,7 +2887,7 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pb-6 border-b border-stone-100">
             <div>
               <img
-                src="/images/logo-melikan.png"
+                src="images/logo-melikan.png"
                 alt="Logo Sentra Melikan"
                 className="h-7 w-auto object-contain mb-2.5"
               />
@@ -2919,3 +2919,4 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
     </div>
   );
 }
+

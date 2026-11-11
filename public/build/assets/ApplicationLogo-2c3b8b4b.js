@@ -1,0 +1,1 @@
+import{j as o}from"./app-7f3358b9.js";function n(a){return o.jsx("img",{src:"images/logo-melikan.png",alt:"Sentra Melikan Logo",...a,className:`object-contain ${a.className||"h-12 w-auto"}`})}export{n as A};
