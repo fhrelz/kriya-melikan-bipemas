@@ -1163,27 +1163,19 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
             
-            {/* Logo Branding */}
+            {/* Official Logo Branding */}
             <div
               onClick={() => selectTab('beranda')}
               className="flex items-center gap-2 sm:gap-2.5 cursor-pointer select-none group shrink-0"
             >
-              <div className="w-8 h-8 rounded-lg bg-[#963824] group-hover:bg-[#7D2E1D] flex items-center justify-center text-white text-sm shadow-xs font-bold transition-transform group-hover:scale-105">
-                🏺
-              </div>
-              <div className="leading-tight">
-                <div className="flex items-center gap-1.5">
-                  <span className="text-xs sm:text-sm font-extrabold tracking-tight text-stone-950">
-                    SENTRA MELIKAN
-                  </span>
-                  <span className="hidden min-[400px]:inline-block text-[10px] font-bold bg-amber-100 text-amber-900 px-1.5 py-0.5 rounded border border-amber-200">
-                    Tim PkM UBSI 2026
-                  </span>
-                </div>
-                <p className="hidden md:block text-[10px] text-stone-500 font-medium">
-                  Sentra Gerabah Melikan Wedi Klaten
-                </p>
-              </div>
+              <img
+                src="/images/logo-melikan.png"
+                alt="Logo Sentra Melikan Gerabah Klaten"
+                className="h-8 sm:h-9 w-auto object-contain transition-transform group-hover:scale-105"
+              />
+              <span className="hidden min-[480px]:inline-block text-[10px] font-bold bg-amber-100 text-amber-900 px-1.5 py-0.5 rounded border border-amber-200">
+                Tim PkM UBSI 2026
+              </span>
             </div>
 
             {/* Desktop Navigation Tabs (>= 1024px) */}
@@ -2894,6 +2886,11 @@ Mohon konfirmasi ketersediaan barang dan jadwal pengiriman via ekspedisi tersebu
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pb-6 border-b border-stone-100">
             <div>
+              <img
+                src="/images/logo-melikan.png"
+                alt="Logo Sentra Melikan"
+                className="h-7 w-auto object-contain mb-2.5"
+              />
               <p className="font-bold text-stone-900 text-xs sm:text-sm mb-1">
                 SENTRA GERABAH MELIKAN & PASEBAN
               </p>
